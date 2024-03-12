@@ -1,0 +1,13 @@
+.app {
+  background-color: #073138;
+  color: white;
+}
+.app__image {
+  padding-bottom: 2em;
+}
+.container-resident {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
