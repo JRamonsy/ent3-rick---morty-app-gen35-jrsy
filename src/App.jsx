@@ -26,7 +26,7 @@ function App() {
   
   return (
     <div className='app'>
-      <img className='app__image' src="/public/baner.jpg" alt="" />
+      <img className='app__image' src="/baner.jpg" alt="" />
       <FormSearch setLocationSelect={setLocationSelect} />
       {hasError ? (
         <h2 className='app__error'>❌Hey! you must provide an id from 1 to 126 😢</h2>
